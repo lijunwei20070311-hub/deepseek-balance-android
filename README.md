@@ -6,6 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Android%2026%2B-brightgreen.svg)](#六自己编译)
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen.svg)](../../releases/latest)
 
 ```
 ┌──────────────────────────────────────────┐
@@ -50,9 +51,11 @@
 
 ## 三、安装
 
-```
-dist/DeepSeekBalance-debug.apk
-```
+**方式一（推荐）**：到 [Releases](../../releases/latest) 页面下载最新 APK（`DeepSeekBalance-vX.Y.Z-debug.apk`）。
+
+**方式二**：自己编译（见第六节），产出 `app/build/outputs/apk/debug/app-debug.apk`。
+
+安装步骤：
 
 1. 把 APK 传到手机（微信/QQ/数据线）点击安装，首次需允许「安装未知来源应用」；
 2. **先打开一次 App**（很重要：安卓要求 App 启动过一次后，桌面小组件才会出现在小组件列表里）；

@@ -47,10 +47,14 @@ calls made from this app.
 
 ## Install
 
-Download `dist/DeepSeekBalance-debug.apk` from this repo and install it on your phone
+Grab the latest APK from the [Releases page](../../releases/latest)
+(`DeepSeekBalance-vX.Y.Z-debug.apk`) and install it on your phone
 (allow "install from unknown sources" the first time).
 
-The APK is **debug-signed**, which is fine for personal use. For a release build, open the project in
+Alternatively build it yourself (see below) — the output is
+`app/build/outputs/apk/debug/app-debug.apk`.
+
+The released APK is **debug-signed**, which is fine for personal use. For a release build, open the project in
 Android Studio and generate a signed release APK.
 
 ### First run
