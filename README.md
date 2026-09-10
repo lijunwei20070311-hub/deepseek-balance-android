@@ -10,8 +10,7 @@
 
 ```
 #此项目由deep seek-v4-pro开发及内容编写#
-```<img width="968" height="2376" alt="Screenshot_20260910_213011" src="https://github.com/user-attachments/assets/a52541f7-8565-47c2-b8c9-47c2268341da" />
-<img width="968" height="1984" alt="Screenshot_20260910_213212_One UI Home" src="https://github.com/user-attachments/assets/306aa946-a3db-4715-9f20-0422dc34c0a6" />
+```
 
 ---
 
