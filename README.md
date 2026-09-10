@@ -10,8 +10,8 @@
 
 ```
 #此项目由deep seek-v4-pro开发及内容编写#
-<img width="968" height="2376" alt="Screenshot_20260910_213011" src="https://github.com/user-attachments/assets/f08f8a12-ad81-4c46-9498-1925bcf4aaef" />
-```
+```<img width="968" height="2376" alt="Screenshot_20260910_213011" src="https://github.com/user-attachments/assets/a52541f7-8565-47c2-b8c9-47c2268341da" />
+<img width="968" height="1984" alt="Screenshot_20260910_213212_One UI Home" src="https://github.com/user-attachments/assets/306aa946-a3db-4715-9f20-0422dc34c0a6" />
 
 ---
 
@@ -43,6 +43,8 @@
 | 设置 | 后台刷新间隔（15/30/60/120/360 分钟）、币种、价格（仅估算用）、余额告警阈值、平台账号退出、清除 API Key、小组件添加说明 |
 | 调用测试 | 可选：直接发一次请求并显示服务端返回的精确 usage，顺便验证 Key 是否可用 |
 | 桌面小组件 | 余额 + 今日 tokens（含输入/输出拆分）+ 本月 tokens + 更新时间；右上角 ⟳ 立即刷新；整卡点击进 App |
+<img width="968" height="2376" alt="Screenshot_20260910_213011" src="https://github.com/user-attachments/assets/eaadda2a-99e1-4fa4-9033-82d437f52bc0" />
+
 
 ## 三、安装
 
