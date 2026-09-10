@@ -9,7 +9,7 @@
 [![Download APK](https://img.shields.io/badge/Download-APK-brightgreen.svg)](../../releases/latest)
 
 ```
-#此项目由deep seek-v4-pro开发及内容编写#
+#此项目由deep seek-v4-flash开发及内容编写#
 ```
 
 ---
