@@ -9,18 +9,13 @@
 [![Download APK](https://img.shields.io/badge/Download-APK-brightgreen.svg)](../../releases/latest)
 
 ```
-┌──────────────────────────────────────────┐
-│ DeepSeek 余额用量             12:30 更新 ⟳│
-│                                          │
-│ 余额             今日  3.2万 tokens       │
-│ ¥98.65           输入 2.8万 · 输出 4,120  │
-│ CNY · 可用       本月  125万 tokens       │
-└──────────────────────────────────────────┘
+#此项目由deep seek-v4-pro开发及内容编写#
+<img width="968" height="2376" alt="Screenshot_20260910_213011" src="https://github.com/user-attachments/assets/f08f8a12-ad81-4c46-9498-1925bcf4aaef" />
 ```
 
 ---
 
-## 一、数据从哪来（重要）
+## 一、数据获取
 
 | 数据 | 来源 | 认证方式 |
 | --- | --- | --- |
@@ -30,8 +25,8 @@
 关键点：**API Key 只能查余额，查不到 tokens 用量**——这是官方公开接口的限制（[官方文档](https://api-docs.deepseek.com/api/get-user-balance/) 只有余额接口）。
 用量数据在平台网页后台里，App 通过内置网页登录拿到登录态后读取，所以：
 
-- 显示的数字与 **platform.deepseek.com「用量信息」页面完全一致**（同一批接口、同一天切分）；
-- 包含你在**任何地方**调用产生的用量（官网、其他工具、脚本都算），不是只统计本 App 的调用；
+- 显示的数字与 **platform.deepseek.com「用量信息」页面完全一致**；
+- 包含你在**任何地方**调用产生的用量，不是只统计本 App 的调用；
 - 不需要手动录入任何数据。
 
 > 说明：这两个用量接口是平台网页版的私有接口，不是官方公开 API；DeepSeek 若调整接口，App 可能需要跟着更新。
@@ -64,11 +59,12 @@
 
 > APK 为 debug 签名，自用安装没问题；如需正式签名，用 Android Studio 打开工程生成 release 包。
 
-## 四、三星手机小组件
+## 四、三星 小组件
 
 1. **确保 App 已经打开过至少一次**，并且已登录；
 2. 回到桌面 → **长按桌面空白处** → 「**小组件**」→ 找到「**余额用量**」→ 拖到桌面（建议 4×2，可拉伸）；
 3. 若卡片显示「未登录平台」/「点 ⟳ 刷新」，点卡片右上角 ⟳ 立即同步。
+<img width="968" height="1984" alt="Screenshot_20260910_213212_One UI Home" src="https://github.com/user-attachments/assets/580c4a2d-2a27-428c-a281-7eb057c45951" />
 
 小组件上的信息：余额（副标题是币种/状态）、今日 tokens（下面是输入/输出拆分）、本月 tokens（同样带拆分）、右上角为最近同步时间。
 
@@ -89,7 +85,7 @@
 
 > 平台登录态等同于你的网页登录会话，请勿把手机或登录态交给他人。
 
-## 六、自己编译
+## 六、编译
 
 要求：JDK 17 + Android SDK（platform 35、build-tools 35）+ Gradle（工程自带 wrapper）。
 
