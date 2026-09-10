@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ds_brand">#FF4D6BFE</color>
+    <!-- 启动图标自适应背景色（取自用户图片四边的底色） -->
+    <color name="ic_launcher_background">#FFF4F3F1</color>
+    <color name="ds_brand_dark">#FF2F4BD8</color>
+    <color name="ds_bg">#FF0F1115</color>
+    <color name="ds_surface">#FF171A21</color>
+    <color name="ds_surface_alt">#FF1F232C</color>
+    <color name="ds_text">#FFE8EAF0</color>
+    <color name="ds_text_dim">#FF9AA3B2</color>
+    <color name="ds_green">#FF34C759</color>
+    <color name="ds_red">#FFFF453A</color>
+    <color name="ds_amber">#FFFFB020</color>
+    <color name="widget_bg">#F2171A21</color>
+    <color name="widget_text">#FFE8EAF0</color>
+    <color name="widget_text_dim">#FF9AA3B2</color>
+    <color name="widget_accent">#FF4D6BFE</color>
+    <color name="widget_green">#FF34C759</color>
+</resources>

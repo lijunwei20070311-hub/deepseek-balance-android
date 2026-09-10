@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">余额用量</string>
+    <string name="setup_title">接入 DeepSeek</string>
+    <string name="usage_entry_title">录入用量</string>
+    <string name="settings_title">设置</string>
+    <string name="chat_title">调用测试</string>
+    <string name="widget_name">DeepSeek 余额与用量</string>
+    <string name="widget_description">在桌面实时显示 DeepSeek 账户余额与 tokens 使用情况</string>
+
+    <!-- 设置 / 登录 -->
+    <string name="hint_api_key">sk- 开头的 API Key</string>
+    <string name="hint_base_url">API 地址</string>
+    <string name="label_api_key">API Key</string>
+    <string name="label_base_url">API Base URL</string>
+    <string name="btn_save_and_verify">保存并验证</string>
+    <string name="api_key_help">在 DeepSeek 开放平台「API keys」页面创建。密钥只保存在本机加密存储中，不会上传到任何第三方服务器。</string>
+    <string name="err_key_required">请先填写 API Key</string>
+    <string name="key_saved">已保存并验证成功</string>
+    <string name="base_url_help">默认 https://api.deepseek.com ，一般无需修改。</string>
+
+    <!-- 仪表盘 -->
+    <string name="dash_title">DeepSeek 账户</string>
+    <string name="balance_label">账户余额</string>
+    <string name="available_yes">余额充足，可正常调用</string>
+    <string name="available_no">余额不足，请及时充值</string>
+    <string name="granted_balance">赠送余额</string>
+    <string name="topped_up_balance">充值余额</string>
+    <string name="tokens_today">今日 tokens</string>
+    <string name="tokens_month">本月 tokens</string>
+    <string name="tokens_total">累计 tokens</string>
+    <string name="requests_today">今日请求数</string>
+    <string name="prompt_tokens">输入 tokens</string>
+    <string name="completion_tokens">输出 tokens</string>
+    <string name="cached_tokens">缓存命中 tokens</string>
+    <string name="spent_today">今日估算消费</string>
+    <string name="btn_refresh">刷新</string>
+    <string name="btn_record_usage">录入用量</string>
+    <string name="btn_chat_test">调用测试</string>
+    <string name="btn_settings">设置</string>
+    <string name="last_updated">更新于 %1$s</string>
+    <string name="never_updated">尚未更新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="usage_estimate_hint">带有「估算」的数值由余额差额推算，仅供参考；精确值来自调用测试或手动录入。</string>
+    <string name="daily_chart_title">近 14 天 tokens 用量</string>
+    <string name="no_usage_yet">暂无用量数据，可在「录入用量」或「调用测试」中产生。</string>
+    <string name="not_logged_in">尚未登录，请先填写 API Key</string>
+
+    <!-- 录入用量 -->
+    <string name="entry_date">日期</string>
+    <string name="entry_model">模型</string>
+    <string name="entry_prompt">输入 tokens</string>
+    <string name="entry_completion">输出 tokens</string>
+    <string name="entry_cached">缓存命中 tokens</string>
+    <string name="entry_requests">请求次数</string>
+    <string name="entry_spent">消费金额（可选）</string>
+    <string name="btn_save_usage">保存</string>
+    <string name="usage_saved">已保存到本地账本</string>
+    <string name="entry_invalid">请输入至少一项有效的 tokens 数量</string>
+    <string name="recent_records">最近记录</string>
+    <string name="btn_delete">删除</string>
+
+    <!-- 设置 -->
+    <string name="settings_interval">后台自动刷新间隔</string>
+    <string name="settings_interval_hint">系统最短限制为 15 分钟；三星手机若开启省电模式可能延迟。</string>
+    <string name="settings_currency">显示币种</string>
+    <string name="settings_auto_ledger">用余额差额自动估算 tokens 用量</string>
+    <string name="settings_auto_ledger_hint">开启后会按官方价格倒推 tokens 数量，结果标记为「估算」。关闭后只统计精确数据。</string>
+    <string name="settings_price">价格（每百万 tokens）</string>
+    <string name="settings_price_hint">用于把余额差额换算成 tokens。默认取 deepseek-v4-flash 高峰价（¥3 / ¥9 每百万），官方调价或使用 v4-pro 时请在此修改。</string>
+    <string name="settings_price_input">输入价格 / 百万</string>
+    <string name="settings_price_output">输出价格 / 百万</string>
+    <string name="settings_notify">余额低于阈值时通知</string>
+    <string name="settings_threshold">余额告警阈值</string>
+    <string name="btn_clear_key">清除 API Key</string>
+    <string name="key_cleared">已清除本机保存的 API Key</string>
+    <string name="settings_saved">设置已保存</string>
+    <string name="btn_add_widget_help">添加桌面小组件</string>
+    <string name="add_widget_help_body">三星手机：长按桌面空白处 →「小组件」→ 找到「余额用量」→ 拖到桌面。若显示「正在加载」，请先在 App 内完成 API Key 登录。</string>
+
+    <!-- 通知 -->
+    <string name="notify_channel_name">余额告警</string>
+    <string name="notify_channel_desc">余额低于阈值时提醒</string>
+    <string name="notify_title">DeepSeek 余额不足</string>
+
+    <!-- 小组件 -->
+    <string name="widget_balance">余额</string>
+    <string name="widget_today">今日</string>
+    <string name="widget_month">本月</string>
+    <string name="widget_desc">今日输入 %1$s · 输出 %2$s</string>
+    <string name="widget_month_desc">本月输入 %1$s · 输出 %2$s</string>
+    <string name="widget_not_login">点击登录并填入 API Key</string>
+    <string name="widget_loading">正在同步…</string>
+    <string name="widget_updated_at">%1$s 更新</string>
+    <string name="widget_estimate_tag">估算</string>
+
+    <!-- 调用测试 -->
+    <string name="chat_hint">输入内容后发送，用量会记入本地账本</string>
+    <string name="btn_send">发送</string>
+    <string name="chat_usage_note">本次：输入 %1$d / 输出 %2$d tokens</string>
+
+    <string name="error_no_network">网络不可用</string>
+    <string name="error_http">请求失败（HTTP %1$d）</string>
+    <string name="error_generic">出错了：%1$s</string>
+
+    <!-- 平台账号登录（拿官方全量用量） -->
+    <string name="platform_login_title">登录 DeepSeek 开放平台</string>
+    <string name="platform_login_help">在下方网页里用自己的账号登录（短信/微信/扫码均可）。登录成功后 App 会自动取出登录态，用来读取开放平台后台的官方用量数据；登录态只保存在本机加密存储中。</string>
+    <string name="platform_already_logged">已登录。重新登录会覆盖当前的登录态。</string>
+    <string name="platform_manual_label">或直接粘贴 userToken</string>
+    <string name="platform_manual_hint">备用方式：在电脑浏览器登录 platform.deepseek.com，按 F12 打开控制台执行 localStorage.getItem(&quot;userToken&quot;) 并把结果粘到上面。</string>
+    <string name="platform_token_required">请先粘贴 userToken</string>
+    <string name="platform_verifying">正在校验登录态…</string>
+    <string name="platform_verified">登录成功，正在同步官方用量</string>
+    <string name="platform_verify_failed">登录态校验失败，请重新登录</string>
+    <string name="platform_extract_now">重新提取登录态</string>
+    <string name="platform_cancel">取消</string>
+    <string name="platform_connect">登录平台账号</string>
+    <string name="platform_relogin">重新登录</string>
+    <string name="platform_connected">官方用量已连接</string>
+    <string name="platform_not_connected">未连接平台账号：只能看到余额，tokens 用量需要登录平台账号才能读取</string>
+    <string name="platform_expired">登录状态已失效，请重新登录平台账号</string>
+    <string name="platform_source">数据来源：DeepSeek 开放平台官方用量接口</string>
+
+    <!-- 平台用量卡片 -->
+    <string name="usage_today_title">今日用量</string>
+    <string name="usage_today_cost">今日消费</string>
+    <string name="usage_month_title">本月用量</string>
+    <string name="usage_month_cost">本月消费</string>
+    <string name="usage_total_label">累计 tokens</string>
+    <string name="usage_requests_label">请求数</string>
+    <string name="usage_input_breakdown">输入 %1$s（缓存命中 %2$s / 未命中 %3$s）</string>
+    <string name="usage_output_breakdown">输出 %1$s</string>
+    <string name="usage_models_title">本月分模型用量</string>
+    <string name="usage_no_platform_data">还没有同步到平台用量，请点击刷新。</string>
+    <string name="usage_estimate_only">当前显示的是「余额差额估算」的参考值：登录平台账号后才能看到官方精确用量。</string>
+
+    <!-- 调试 / 自检 -->
+    <string name="debug_title">诊断信息</string>
+    <string name="debug_export">导出诊断信息</string>
+    <string name="debug_copied">诊断信息已复制到剪贴板</string>
+</resources>
